@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 const PropertyCard: React.FC<PropertyCardProps> = ({ property }) => {
   return (
     <div className="bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-md transition-shadow duration-300 cursor-pointer">
