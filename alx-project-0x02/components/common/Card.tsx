@@ -12,3 +12,4 @@ const Card: React.FC<CardProps> = ({ title, content }) => {
 };
 
 export default Card;
+export interface CardProps", "title: string", "content: string";
